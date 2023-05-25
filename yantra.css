@@ -1,0 +1,220 @@
+.body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.IEEE{
+    position: absolute;
+    width: 997px;
+    height: 341px;
+    left: 123px;
+    top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 143.19%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.Ieee{
+    position: absolute;
+    width: 997px;
+    height: 341px;
+    left: 123px;
+    top: 420px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 143.19%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.rules{
+    background-color: black;
+    color: white;
+    font-family: orbitron;
+    padding-right: 40px;
+    padding-left: 48px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 380px;
+    height: 55px;
+    left: 200px;
+    top: 320px;
+    border: 2px solid #FFFFFF;
+    border-radius: 212px;
+    font-size: 120%;
+}
+.prizes{
+    background-color: black;
+    color: white;
+    font-family: orbitron;
+    padding-right: 40px;
+    padding-left: 48px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 280px;
+    height: 55px;
+    left: 240px;
+    top: 700px;
+    border: 2px solid #FFFFFF;
+    border-radius: 212px;
+    font-size: 110%;
+}
+.tech{
+    position: absolute;
+    width: 547px;
+    height: 190px;
+    left: 650px;
+    top: 5px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 95px;
+    text-align: right;
+    color: #FBECB8;
+}
+.part{
+    position: absolute;
+    width: 547px;
+    height: 190px;
+    left: 650px;
+    top: 350px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 95px;
+    text-align: right;
+    color: #FBECB8;
+}
+.line{
+    position: absolute;
+    width: 1328px;
+    height: 0px;
+    left: 600px;
+    top: 60px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(-90deg);
+}
+.i1circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1245px;
+    top: 80px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+.i2circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1245px;
+    top: 450px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+.o1circle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1235px;
+    top: 70px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 3px solid #D1D1D1;
+    border-radius: 50%;
+}
+.o2circle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1235px;
+    top: 440px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 3px solid #D1D1D1;
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px){
+    .IEEE{
+        width: 40%;
+        font-size: 12px;
+        margin-left: -20%;
+    }
+    .tech{
+        width: 40%;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20%;
+        margin-left: -450px;
+    }
+    .rules{
+        width: 45%;
+        font-size: 10px;
+        padding-left: 15px;
+        padding-top: 7px;
+        margin-left: -150px;
+        margin-top: -5%;
+        height: 30px;
+    }
+    .Ieee{
+        width: 40%;
+        font-size: 12px;
+        margin-left: -20%;
+    }
+    .part{
+        width: 40%;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20%;
+        margin-left: -450px;
+    }
+    .prizes{
+        width: 45%;
+        font-size: 10px;
+        padding-left: 15px;
+        padding-top: 7px;
+        margin-left: -190px;
+        margin-top: -5%;
+        height: 30px;
+    }
+    .line{
+        margin-left: -237%;
+    }
+    .i1circle{
+        margin-left: -234%;
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+
+    }
+    .i2circle{
+        margin-left: -234%;
+        height: 20px;
+        width: 20px;
+        margin-top: -15px;
+    }
+    .o1circle{
+        margin-top: 12.5px;
+        margin-left: -233.5%;
+        height: 35px;
+        width: 35px;
+    }
+    .o2circle{
+        margin-top: -12.5px;
+        margin-left: -233.5%;
+        height: 35px;
+        width: 35px;
+    }
+}
